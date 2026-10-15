@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="#" class="logo">MyWebsite</a>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Trang chủ</a></li>
+            <li><a href="#about">Giới thiệu</a></li>
+            <li><a href="#services">Dịch vụ</a></li>
+            <li><a href="#contact">Liên hệ</a></li>
+        </ul>
+
+        <button
+            class="menu-icon"
+            id="menuIcon"
+            type="button"
+            aria-label="Mở menu"
+            aria-controls="navLinks"
+            aria-expanded="false"
+        >
+            ☰
+        </button>
+    </nav>
+
+    <main>
+        <section id="home" class="content">
+            <h1>Chào mừng đến với MyWebsite</h1>
+            <p>Đây là trang web minh họa thanh điều hướng responsive.</p>
+        </section>
+
+        <section id="about" class="content">
+            <h2>Giới thiệu</h2>
+            <p>Tìm hiểu thông tin về website của chúng tôi.</p>
+        </section>
+
+        <section id="services" class="content">
+            <h2>Dịch vụ</h2>
+            <p>Khám phá các dịch vụ mà chúng tôi cung cấp.</p>
+        </section>
+
+        <section id="contact" class="content">
+            <h2>Liên hệ</h2>
+            <p>Hãy liên hệ với chúng tôi khi bạn cần hỗ trợ.</p>
+        </section>
+    </main>
+
+</body>
+</html>
